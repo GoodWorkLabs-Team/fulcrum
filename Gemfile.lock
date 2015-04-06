@@ -66,6 +66,8 @@ GEM
       factory_girl (~> 4.5.0)
       railties (>= 3.0.0)
     ffi (1.9.8)
+    figaro (1.1.0)
+      thor (~> 0.14)
     fssm (0.2.10)
     hike (1.2.3)
     i18n (0.7.0)
@@ -214,6 +216,7 @@ DEPENDENCIES
   devise (~> 3.2.4)
   ejs
   factory_girl_rails
+  figaro
   jasmine-rails
   jquery-rails
   jquery-ui-rails
