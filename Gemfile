@@ -21,6 +21,7 @@ gem 'mysql2', group: :mysql
 
 group :production do
   gem 'rails_12factor'
+  gem 'pg'
 end
 
 group :development do
